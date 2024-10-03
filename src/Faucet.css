@@ -1,0 +1,74 @@
+/* src/Faucet.css */
+
+body {
+    background-color: #f0f4f8; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+.faucet-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for the card */
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.connect-button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #007bff; /* Light blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.connect-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.amount-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.request-button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.request-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.success-message {
+   margin-top :20px ;
+   color : green ;
+}
+
+.error-message {
+   margin-top :20px ;
+   color : red ;
+}
